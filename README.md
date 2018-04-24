@@ -1,4 +1,4 @@
 # cobaltplusplus
-Cobalt for Notepad++.
+Cobalt for Notepad++ mimicked from Gedit.
 
-Unfinished work. I created this repo for my own convenience. 
+Unfinished work, only contains the languages I use the most. I created this repo for my own convenience.
