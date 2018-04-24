@@ -1,0 +1,2 @@
+# cobaltplusplus
+Cobalt for Notepad++.
