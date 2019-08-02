@@ -815,7 +815,7 @@
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="003B70" fgColor="FFFFFF" fontSize="" fontStyle="0" colorStyle="1" />
         <WidgetStyle name="Selected text colour" styleID="0" bgColor="0050A4" fgColor="FFFFFF" colorStyle="2" fontStyle="0" />
         <WidgetStyle name="Caret colour" styleID="2069" fgColor="FFFFFF" bgColor="6699CC" fontStyle="0" />
-        <WidgetStyle name="Edge colour" styleID="0" fgColor="80FFFF" bgColor="112435" fontSize="" fontStyle="0" />
+        <WidgetStyle name="Edge colour" styleID="0" fgColor="0064BE" bgColor="112435" fontSize="" fontStyle="0" />
         <WidgetStyle name="Line number margin" styleID="33" fgColor="0065BF" bgColor="000D1A" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Fold" styleID="0" fgColor="0088FF" bgColor="000D1A" fontSize="" fontStyle="0" />
         <WidgetStyle name="Fold active" styleID="0" fgColor="FF0000" bgColor="343F41" fontSize="" fontStyle="0" />
