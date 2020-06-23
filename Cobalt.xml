@@ -122,7 +122,7 @@
         <LexerType name="cpp" desc="C++" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="80FFBB" bgColor="001B33" fontName="" fontStyle="1" fontSize="" colorStyle="2" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="C8C8C8" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="FF9D00" bgColor="001B33" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="FF9D00" bgColor="001B33" fontName="" fontStyle="1" fontSize="" keywordClass="instre1">ooooo</WordsStyle>
             <WordsStyle name="TYPE WORD" styleID="16" fgColor="FF9D00" bgColor="001B33" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
             <WordsStyle name="NUMBER" styleID="4" fgColor="FF0044" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="3AD900" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
@@ -193,8 +193,8 @@
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="DECLARATION" styleID="5" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-            <WordsStyle name="INSTRUCTION WORD" styleID="16" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="instre2" />
-            <WordsStyle name="KEYWORD" styleID="8" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+            <WordsStyle name="INSTRUCTION WORD" styleID="16" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" keywordClass="instre2">import</WordsStyle>
+            <WordsStyle name="KEYWORD" styleID="8" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="type1">import</WordsStyle>
             <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="6" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="CHARACTER" styleID="7" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
@@ -233,8 +233,8 @@
             <WordsStyle name="TAG" styleID="1" fgColor="F0F0F0" bgColor="001B33" fontName="Batang" fontStyle="0" fontSize="" />
             <WordsStyle name="CLASS" styleID="2" fgColor="80FFBB" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="PSEUDOCLASS" styleID="3" fgColor="CCCCCC" bgColor="001B33" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="E1E1E1" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="OPERATOR" styleID="5" fgColor="9696FF" bgColor="001B33" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="UNKNOWN_PSEUDOCLASS" styleID="4" fgColor="E1E1E1" bgColor="001B33" fontName="" fontStyle="0" fontSize="">if else for while</WordsStyle>
+            <WordsStyle name="OPERATOR" styleID="5" fgColor="9696FF" bgColor="001B33" fontName="" fontStyle="1" fontSize="">bool long int char</WordsStyle>
             <WordsStyle name="IDENTIFIER" styleID="6" fgColor="FF9D00" bgColor="001B33" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="UNKNOWN_IDENTIFIER" styleID="7" fgColor="E1E1E1" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="VALUE" styleID="8" fgColor="FF0044" bgColor="001B33" fontName="" fontStyle="1" fontSize="" />
@@ -405,7 +405,7 @@
             <WordsStyle name="DEFAULT" styleID="31" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING" styleID="2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="STRING2" styleID="3" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="STRING2" styleID="3" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="">import</WordsStyle>
             <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="">endfunction endif</WordsStyle>
             <WordsStyle name="VAR" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="MACRO" styleID="6" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
@@ -783,7 +783,7 @@
             <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="CCCCCC" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="ATTRIBUTEUNKNOWN" styleID="4" fgColor="FF1818" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="SGMLDEFAULT" styleID="21" fgColor="A6CAF0" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="CDATA" styleID="17" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="CDATA" styleID="17" fgColor="FF8000" bgColor="001B33" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="yaml" desc="YAML" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
